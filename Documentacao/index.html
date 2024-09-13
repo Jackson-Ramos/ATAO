@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação do Sistema de Livros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Sistema de Gerenciamento de Livros</h1>
+            <p>Uma aplicação para organização e gerenciamento de livros, utilizando algoritmos de ordenação Quick Sort.</p>
+        </div>
+    </header>
+
+    <section id="destaque-geral">
+        <div class="container">
+            <h2>Descrição Geral</h2>
+            <p>
+                Este sistema permite que o usuário adicione, liste e organize livros utilizando algoritmos eficientes de ordenação. 
+                A aplicação implementa o Quick Sort para ordenar os livros por título e por autor, proporcionando uma forma prática e intuitiva de gerenciar o acervo. 
+                A capacidade máxima do sistema é de 100 livros.
+            </p>
+        </div>
+    </section>
+
+    <div class="container">
+        <section id="funcionalidades">
+            <h2>1. Funcionalidades Principais</h2>
+            <ul>
+                <li><strong>Adicionar Livros:</strong> Adiciona um novo livro ao acervo com informações como título, autor e ano de publicação.</li>
+                <li><strong>Listar Livros:</strong> Exibe todos os livros cadastrados no sistema.</li>
+                <li><strong>Ordenar Livros:</strong> Ordena os livros por título ou por autor usando o algoritmo Quick Sort.</li>
+                <li><strong>Remover Livros:</strong> Remove um livro específico do acervo.</li>
+            </ul>
+        </section>
+
+        <section id="interface">
+            <h2>2. Interface Gráfica</h2>
+            <p>
+                A interface é desenvolvida com Swing em Java e contém:
+            </p>
+            <ul>
+                <li><strong>Formulário de Adição:</strong> Campos para inserir informações sobre o livro.</li>
+                <li><strong>Área de Exibição:</strong> Um painel que lista todos os livros cadastrados.</li>
+                <li><strong>Botões de Ação:</strong> Opções para ordenar a lista de livros por título ou autor e remover livros.</li>
+            </ul>
+        </section>
+
+        <section id="algoritmos">
+            <h2>3. Algoritmo de Ordenação</h2>
+            <p><strong>Ordenação (Quick Sort):</strong></p>
+            <p>
+                O Quick Sort é um algoritmo eficiente que utiliza a técnica de divisão e conquista. Ele seleciona um pivô e ordena a lista recursivamente, separando os livros em sublistas com base em suas comparações com o pivô. 
+            </p>
+        </section>
+
+        <section id="validacao">
+            <h2>4. Validações e Tratamento de Erros</h2>
+            <p>
+                O sistema valida a entrada do usuário para garantir que o ano de publicação seja um número inteiro. 
+                Caso contrário, uma mensagem de erro será exibida. Além disso, o sistema exibe um aviso quando o limite de livros é atingido.
+            </p>
+        </section>
+
+        <section id="capacidade">
+            <h2>5. Capacidade e Limitações</h2>
+            <p>
+                A aplicação suporta até 100 livros e utiliza o algoritmo Quick Sort para ordenação, que é eficiente para grandes volumes de dados. 
+                Não há suporte para Bubble Sort na implementação atual, o que melhora a eficiência da ordenação.
+            </p>
+        </section>
+
+        <section id="consideracoes">
+            <h2>6. Considerações Finais</h2>
+            <p>
+                Esta aplicação fornece uma interface amigável para gerenciamento de livros com funcionalidades práticas de ordenação. 
+                Em versões futuras, funcionalidades como pesquisa de livros e uma melhor interface para remoção de livros podem ser adicionadas para aprimorar a experiência do usuário.
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Sistema de Livros | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
